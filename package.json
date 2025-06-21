@@ -4,8 +4,11 @@
   "description": "A lightweight quiz app built with HTML, TypeScript, and Tailwind CSS.\r <!-- TODO - add tailwind -->",
   "main": "quiz.js",
   "scripts": {
+    "build:css": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css",
+    "build:ts": "tsc",
+    "build": "npm run build:css && npm run build:ts",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  },  
   "keywords": [],
   "author": "",
   "license": "ISC",

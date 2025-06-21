@@ -1,20 +1,19 @@
 # What Style Are You? Quiz
 
 A lightweight quiz app built with HTML, TypeScript, and Tailwind CSS.
-<!-- TODO - add tailwind -->
 
 ## How to Run
 
-1. Install TypeScript if needed:
+1. Run npm install
 
    ```bash
-   npm install -g typescript
+   npm install 
    ```
 
-2. Build Tailwind CSS:
+2. Build the project locally:
 
    ```bash
-   npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+   npm run build
    ```
 
 3. Push to `main` branch.
@@ -23,10 +22,3 @@ A lightweight quiz app built with HTML, TypeScript, and Tailwind CSS.
    - Go to your repository settings.
    - Scroll to **Pages**.
    - Set the source to `main` and folder to `root`.
-
-## 🚀 Getting Started
-
-- Run `tsc` to generate `quiz.js`.
-- Open `index.html` locally to test.
-- Push to `main` branch.
-- Enable **GitHub Pages** from settings.
