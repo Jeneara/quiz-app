@@ -9,13 +9,24 @@ A lightweight quiz app built with HTML, TypeScript, and Tailwind CSS.
 
    ```bash
    npm install -g typescript
+   ```
 
+2. Build Tailwind CSS:
+
+   ```bash
+   npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+   ```
+
+3. Push to `main` branch.
+
+4. Enable **GitHub Pages**:
+   - Go to your repository settings.
+   - Scroll to **Pages**.
+   - Set the source to `main` and folder to `root`.
 
 ## 🚀 Getting Started
 
-<!-- TODO Fill out more info -->
-
 - Run `tsc` to generate `quiz.js`.
-- Open `index.html` to test.
-- Push to `main`.
+- Open `index.html` locally to test.
+- Push to `main` branch.
 - Enable **GitHub Pages** from settings.
