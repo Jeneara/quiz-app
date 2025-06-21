@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "strict": true,
+        "outFile": "quiz.js",
+        "skipLibCheck": true,
+        "lib": [
+            "es2017",
+            "dom"
+        ]
+    },
+    "include": [
+        "quiz.ts"
+    ]
+}
